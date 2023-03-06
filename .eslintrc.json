@@ -5,11 +5,21 @@
      "browser": true,
      "jest": true
   },
+  // "parserOptions": {
+  //   "sourceType": "module"
+  // },
   "rules": {
     "no-restricted-syntax": [
       "error",
       "LabeledStatement",
       "WithStatement"
-    ]
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never"
+      }
+   ]
   }
 }

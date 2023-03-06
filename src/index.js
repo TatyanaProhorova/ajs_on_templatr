@@ -1,3 +1,3 @@
-import singleFunc from './js/basic.js';
+import healthStatus from './js/basic.js';
 
-singleFunc({ name: 'Маг', health: 'em' });
+console.log(healthStatus({ name: 'Маг', health: 'em' }));
